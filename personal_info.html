@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- css Link -->
+    <link rel="stylesheet" href="css/personal_info.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col1" id="first">
+                <img class="user" src="images/user.png" alt="">
+            </div>
+            <div class="col2" id="second">
+                <h6 class="info">Personal Information</h6>
+                <p class="context">Let's Start With Your Details</p>
+
+                <form class="personal_info">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="name" id="floatingName">
+                        <label htmlFor="floatingName">First Name<sup class="star">*</sup></label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="name" id="floatingName" />
+                        <label htmlFor="floatingName">Last Name<sup class="star">*</sup></label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="name" id="floatingName" />
+                        <label htmlFor="floatingName">Display Name<sup class="star">*</sup></label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="email" class="form-control" name="email" id="floatingInput" />
+                        <label htmlFor="floatingInput">Email Address<sup class="star">*</sup>(This will be your
+                            username)</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="password" class="form-control" name="password" id="floatingPassword" />
+                        <label htmlFor="floatingPassword">Password<sup class="star">*</sup></label>
+                    </div>
+
+                    <button class="button" type="submit" value="Next"> Next </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
